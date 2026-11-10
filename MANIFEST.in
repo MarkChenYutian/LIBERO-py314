@@ -1,0 +1,6 @@
+# Runtime data must be present in both source distributions and installed wheels.
+graft libero/libero/assets
+graft libero/libero/bddl_files
+graft libero/libero/init_files
+recursive-include libero/configs *.yaml *.yml
+global-exclude __pycache__ *.py[cod] .DS_Store
